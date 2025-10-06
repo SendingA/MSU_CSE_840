@@ -1,3 +1,55 @@
+First Principles, Groups G then Field
+
+
+
+ Definition 1. A set G of elements with an operation + : G × G → G is called a group if the following properties hold: (P1) Associativity: ∀a,b,c ∈ G : (a + b) + c = a+(b+c) (P2) Identity element: ∃e ∈ G,∀g ∈ G : e+g = g +e = g (P3) Inverse element: ∀a ∈ G,∃b ∈ G : a+b = b+a = e The group is called a commutative group (Abelian group) if we have an additional property: (P4) ∀a,b ∈ G : a+b =b+a
+
+
+
+
+
+Definition 2. A set F with two operations +,· : F × F → F is called a field if the following properties hold: (P1) (F,+) is a commutative group with identity element 0 (P2) (F \{0},·) is a commutative group with identity element 1 (P3) Distributivity: ∀a,b,c ∈ F : a · (b + c) = a·b+a·c
+
+
+
+ Definition 3. Let n ∈ Z and define Zn = {0,1,...,n−1} with the operations: • Addition modulo n: a+n b := (a+b) mod n • Multiplication modulo n: a ·n b := (a · b) mod n Then, (Zn,+n,·n) forms a field if and only if n is prime.
+
+
+
+ Remark: If n is composite, (Zn,+n,·n) forms a commutative ring with unity but not a field.
+
+
+
+Definition 4. Let F be a field with identity elements 0 and 1. A vector space defined over the field F is a set V with a mapping + : V × V → V ("vector addition") and · : F × V → V ("scalar multiplication") such that:
+
+(P1) (V,+) is a commutative group (P2) Multiplicative identity: ∀v ∈ V : 1 · v = v (P3) Distributive property: ∀a,b ∈ F,u,v ∈ V a · (u +v) = a·u+a·v (a +b)·u = a·u+b·u Remark: Elements of V are called vectors, elements of field F are scalars.
+
+
+
+Every convergent sequence is a Cauchy Sequence.
+
+
+
+
+
+ A metric space is called complete if every Cauchy sequence converges
+
+
+
+**一句话理解**：A*A* 在 X*X* 中稠密，就是 X*X* 中每一点都可以被 A*A* 中的点任意接近。
+
+
+
+ => Aset can be neither open nor closed, eg: [0,1)
+
+ => A set can be both open and closed
+
+
+
+
+
+ Note: ∥x∥0 is not a norm.
+
 
 
 **对称矩阵** → 特征值都是实数，但可正可负。
